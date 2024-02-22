@@ -4,4 +4,9 @@ html {
     place-items: center;
     justify-content: center;
     background-color: #242424;
+    color: white;
+}
+
+a {
+    color: white;
 }
