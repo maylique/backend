@@ -1,0 +1,13 @@
+{
+    "name": "Alan Harper",
+    "occupation": "Chiropractor",
+    "age": 47,
+    "education": "Chiropractic degree from a correspondence course",
+    "relatives": {
+        "brother": "Charlie Harper",
+        "son": "Jake Harper",
+        "nephew": "Louis"
+    },
+    "friends": ["Walden Schmidt", "Herb Melnick"],
+    "hobbies": ["Playing the keyboard", "Chess"]
+}
