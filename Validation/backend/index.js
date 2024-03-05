@@ -8,9 +8,10 @@ import multer from 'multer'
 const PORT = 3000
 const app = express()
 const guestDataBase = './db.json'
+const backendUrl =process.env.BACKEND_URL
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: process.env.FRONTEND_URL,
     optionSuccessStatus: 200,
 }
 
@@ -72,5 +73,5 @@ app.post('/guest',upload.none("") , async (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log(`listening on http://localhost:${PORT}`);
+    console.log(`listening on ${backendUrl}`);
 })

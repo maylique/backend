@@ -4,6 +4,7 @@ import './App.css'
 function App() {
   const [guests, setGuests] = useState([])
   const formRef = useRef()
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
   const addGuest = async (guestData) => {
     try {
@@ -23,13 +24,13 @@ function App() {
   }
 
   const postGuest = (newGuestData) => {
-    fetch('http://localhost:3000/guest', {
+    fetch(`${BACKEND_URL}/guest`, {
       method: "POST",
       body: newGuestData
     }).then((resp) => resp.json())
   }
 
-  const getGuest = () => fetch('http://localhost:3000/guest').then((resp) => resp.json())
+  const getGuest = () => fetch(`${BACKEND_URL}/guest`).then((resp) => resp.json())
 
   const handleSubmit = async (e) => {
     e.preventDefault()
