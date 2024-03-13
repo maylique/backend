@@ -4,11 +4,19 @@ import cors from 'cors'
 import { z } from 'zod'
 import { v4 as uuid}  from 'uuid'
 import multer from 'multer'
+import 'dotenv/config'
+import { MongoClient } from'mongodb'
+
+
 
 const PORT = 3000
 const app = express()
 const guestDataBase = './db.json'
 const backendUrl =process.env.BACKEND_URL
+
+const client = new MongoClient(process.env.MONGO_URL)
+
+export const db = client.db()
 
 const corsOptions = {
     origin: process.env.FRONTEND_URL,
