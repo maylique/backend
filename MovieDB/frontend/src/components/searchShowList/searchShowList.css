@@ -1,0 +1,101 @@
+.movieCard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.containerInfo {
+    display: grid;
+    grid-template-columns: 4fr 0.5fr;
+    grid-template-rows: 2fr 1fr;
+
+
+    justify-items: start
+}
+
+.showListImg {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 7 / 10;
+    border-radius: .5rem;
+}
+
+.movieInfos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 1rem;
+
+}
+
+
+.containerInfo .movieTitle {
+    color: var(--color-black);
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-items: start;
+    text-align: left;
+}
+
+
+.movieInfos p {
+    color: var(--color-black);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.movieCard .bookmarkIcon {
+    align-self: flex-start;
+}
+
+
+.bookmarkIcon:hover path {
+    stroke: red;
+    padding: 1rem;
+    transform: scale(.90);
+
+
+    /* Schimbă culoarea liniei la hover */
+}
+
+@media screen and (min-width: 768px) {
+    .showListImg {
+        width: 140px
+    }
+
+    .movieCard {
+        align-items: start;
+    }
+
+    .containerInfo .movieTitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .showListImg {
+        width: 180px
+    }
+
+    .movieCard {
+        align-items: start;
+    }
+
+    .containerInfo .movieTitle {
+        font-size: 2rem;
+    }
+}

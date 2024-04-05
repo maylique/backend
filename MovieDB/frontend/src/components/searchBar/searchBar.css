@@ -1,0 +1,108 @@
+.seachBar {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-weight: 300;
+    width: 100%;
+    height: 3rem;
+    flex-shrink: 0;
+    background-color: #FBF8FF;
+    fill: #FBF8FF;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+input[type="text"],
+input[type="placeholder"] {
+    color: #A4A3A3;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: .3rem .9rem;
+}
+
+/* search icon */
+input {
+    padding-right: 2rem;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2221%22%20height%3D%2221%22%20viewBox%3D%220%200%2021%2021%22%20fill%3D%22none%22%3E%20%20%20%20%3Cpath%20d%3D%22M20.7144%2018.1558L16.6248%2014.067C16.4403%2013.8824%2016.1901%2013.7799%2015.9275%2013.7799H15.2589C16.391%2012.3322%2017.0637%2010.5113%2017.0637%208.53042C17.0637%203.81818%2013.2449%200%208.53187%200C3.81883%200%200%203.81818%200%208.53042C0%2013.2427%203.81883%2017.0608%208.53187%2017.0608C10.5131%2017.0608%2012.3343%2016.3882%2013.7823%2015.2563V15.9248C13.7823%2016.1873%2013.8848%2016.4375%2014.0694%2016.622L18.1589%2020.7109C18.5445%2021.0964%2019.168%2021.0964%2019.5495%2020.7109L20.7103%2019.5502C21.0959%2019.1647%2021.0959%2018.5414%2020.7144%2018.1558ZM8.53187%2013.7799C5.63186%2013.7799%203.28149%2011.434%203.28149%208.53042C3.28149%205.6309%205.62776%203.28093%208.53187%203.28093C11.4319%203.28093%2013.7823%205.62679%2013.7823%208.53042C13.7823%2011.4299%2011.436%2013.7799%208.53187%2013.7799Z%22%20fill%3D%22%23A4A3A3%22%20/%3E%3C/svg%3E");
+    background-size: 21px 21px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+
+.genreButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+
+/* .genreButtons button {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #FBF8FF;
+    color: #A4A3A3;
+    cursor: pointer;
+} */
+
+/* .genreButtons button:hover {
+    background-color: var(--color-red);
+    color: white
+} */
+
+
+
+
+
+
+.movieHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.movieHeader h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+
+.movieHeader p {
+    color: #FC2121;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.movieHeader p:hover {
+    transform: scale(1);
+    color: #000;
+}
+
+.welkomeText {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+
+    font-weight: 700;
+    padding-top: 1.5rem;
+
+}

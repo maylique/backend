@@ -1,0 +1,21 @@
+.headerTrailer {
+    display: grid;
+    grid-template-columns: .5fr 4.5fr;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-between; */
+    padding: 1rem;
+}
+
+#trailerGoBack {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+
+.scTrailer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+
+
+Mögliche Arten Code zu organisieren:
+
+// nach art der datei
+
+/user/
+    controller.js
+    router.js
+    model.js
+/expenses/
+    controller.js
+    router.js
+    model.js
+/index.js
+
+
+// nach feature
+
+/controllers/
+    user.js
+    expenses.js
+/models/
+    user.js
+    expenses.js
+/routers/
+    user.js
+    expenses.js
+/index.js

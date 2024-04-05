@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Haussperling",
+    "latinName": "Passer domesticus",
+    "description": "Der Haussperling, auch bekannt als Spatz, ist einer der häufigsten und bekanntesten Vögel in Deutschland. Er zeichnet sich durch sein kleines, gedrungenes Erscheinungsbild mit graubraunem Gefieder und einem markanten schwarzen Fleck am Kinn aus. Haussperlinge sind oft in städtischen Gebieten, Vororten und ländlichen Regionen anzutreffen. Sie ernähren sich hauptsächlich von Samen, Körnern und gelegentlich von Insekten.",
+    "food": ["Samen", "Körner", "Insekten"],
+    "size": "XS",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg/988px-House_sparrow_male_in_Prospect_Park_%2853532%29.jpg"
+  },
+  {
+    "name": "Amsel",
+    "latinName": "Turdus merula",
+    "description": "Die Amsel ist ein häufiger Singvogel in Deutschland und bekannt für ihr glänzend schwarzes Gefieder und den orangefarbenen Schnabel. Männliche Amseln haben ein auffälligeres Gefieder als die Weibchen, die etwas bräunlicher sind. Amseln sind in Wäldern, Parks und Gärten verbreitet. Sie ernähren sich von Würmern, Schnecken, Beeren und Früchten.",
+    "food": ["Würmer", "Schnecken", "Beeren", "Früchte"],
+    "size": "S",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Common_Blackbird_%28Turdus_merula_mauritanicus%29_female.jpg/1024px-Common_Blackbird_%28Turdus_merula_mauritanicus%29_female.jpg"
+  },
+  {
+    "name": "Kohlmeise",
+    "latinName": "Parus major",
+    "description": "Die Kohlmeise ist ein kleiner Singvogel mit auffälligem schwarz-weißem Gefieder und einem gelben Bauch. Sie ist in ganz Deutschland verbreitet und bewohnt Wälder, Parks, Gärten und sogar städtische Gebiete. Kohlmeisen ernähren sich hauptsächlich von Insekten, Samen und Beeren. Sie sind dafür bekannt, Futterhäuschen zu besuchen und sind beliebte Gäste in Gärten.",
+    "food": ["Insekten", "Samen", "Beeren"],
+    "size": "XS",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Parus_major_Luc_Viatour.jpg/1024px-Parus_major_Luc_Viatour.jpg"
+  },
+  {
+    "name": "Blaumeise",
+    "latinName": "Cyanistes caeruleus",
+    "description": "Die Blaumeise ist ein kleiner Singvogel mit auffällig blauem Gefieder auf Kopf und Flügeln sowie einem gelben Bauch. Sie ist in Wäldern, Parks und Gärten in ganz Deutschland anzutreffen. Blaumeisen ernähren sich von Insekten, Samen und Beeren. Sie sind besonders geschickt und können sogar kopfüber an Ästen hängen, um Nahrung zu suchen.",
+    "food": ["Insekten", "Samen", "Beeren"],
+    "size": "XS",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/ParusCaeruleus.jpg/1024px-ParusCaeruleus.jpg"
+  },
+  {
+    "name": "Rotkehlchen",
+    "latinName": "Erithacus rubecula",
+    "description": "Das Rotkehlchen ist ein kleiner Singvogel mit einem markanten orangefarbenen Brustfleck, der ihm seinen Namen verleiht. Es ist in ganz Deutschland verbreitet und bewohnt Wälder, Parks, Gärten und sogar städtische Gebiete. Rotkehlchen ernähren sich von Insekten, Würmern und Beeren. Sie sind bekannt für ihren melodischen Gesang und werden oft als Symbole für die Ankunft des Frühlings betrachtet.",
+    "food": ["Insekten", "Würmer", "Beeren"],
+    "size": "XS",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Robin_%289509442456%29.jpg/1280px-Robin_%289509442456%29.jpg"
+  }
+]

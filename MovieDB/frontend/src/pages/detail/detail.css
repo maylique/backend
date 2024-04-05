@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#detail {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+body {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#detailImgBox {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+#backArrow {
+    align-self: flex-start;
+    justify-self: start;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.movieDetailTitle {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    /* list-style: none; */
+}
+
+li:nth-child(1) {
+    list-style: none;
+    text-align: left;
+}
+
+#overview {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+
+.overviewText {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+/* #overview p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem;
+} */
+
+#overview p span {
+    color: red
+}
+
+
+.genre {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: .5rem 1em;
+}
+
+
+
+.genre p {
+    color: black;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+.genre p:first-child {
+    color: black;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.genre p:last-child {
+    text-align: right;
+}
+
+
+
+
+
+
+#trailerButton {
+    align-self: center;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.2rem;
+    /* background-color: var(--color-red);
+    color: white; */
+    border: none;
+    border-radius: 1rem;
+
+
+
+}
+
+.genreButtons button {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #FBF8FF;
+    color: #A4A3A3;
+    cursor: pointer;
+}

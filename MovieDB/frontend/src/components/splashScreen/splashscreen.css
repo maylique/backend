@@ -1,0 +1,23 @@
+.bodySplash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height: 100vh;
+    animation: loading 1s linear 2s 1 forwards;
+}
+
+@keyframes loading {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.bodySplash h1 {
+    font-size: 4rem;
+    color: white;
+}

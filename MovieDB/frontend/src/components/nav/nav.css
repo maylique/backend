@@ -1,0 +1,23 @@
+.navbar-nav {
+    /* font-size: 30px;
+    display: flex;
+    gap: 4rem; */
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    height: 4.4rem;
+    width: 100vw;
+}
+
+.nav-item .nav-link:hover {
+    color: red;
+}

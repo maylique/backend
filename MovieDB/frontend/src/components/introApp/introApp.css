@@ -1,0 +1,63 @@
+.bodyIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    animation: loadingIntro 2s linear 0s 1 forwards;
+}
+
+@keyframes loadingIntro {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.scEyeCatcher {
+    height: 55vh;
+    background: radial-gradient(circle, #d92526, #d73835, #d34643, #cf5350, #ca5f5d, #c96b65, #c7766e, #c58178, #c68f83, #c79d8f, #c7ab9e, #c8b8af);
+    width: 100%;
+    position: relative;
+}
+
+.scEyeCatcher img {
+    height: 100%;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scIntroDescription {
+    height: 35vh;
+    width: 100vw;
+    position: relative;
+    background: white;
+
+}
+
+.divIntroDescription {
+    margin: 0 auto;
+    min-width: 320px;
+    width: 80vw;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.divIntroDescription p {
+    /* font-size: 1.5rem; */
+    text-align: center;
+}
